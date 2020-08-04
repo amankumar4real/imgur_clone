@@ -1,0 +1,141 @@
+.main_div{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:auto auto auto auto auto;
+    margin-top: -20px;
+}
+
+.main_div img{
+    width: 100%;
+    /* position: relative; */  
+    ; 
+}
+
+.a{
+    background-color: rgb(102, 102, 102);
+    padding-bottom: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.txt{
+    color: white;
+    margin: 5px;
+    font-size: 12px;
+}
+
+body{
+    background-color: rgb(68, 68, 68);
+}
+
+.top{
+    text-align: center;
+    display: grid;
+    grid-template-columns:2fr 2fr 3fr 1fr 1fr 1fr 1fr;
+}
+
+.banner{
+    background-image: url('./download.png');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    height:48%;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    margin: 10px;
+}
+
+input[type=text] {
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 6px;
+    background-color: white;
+    background-image: url('./searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+
+button{
+    margin: 10px;
+    padding: 6px;
+    background-color: rgb(90, 226, 55);
+    border: solid rgb(90, 226, 55);
+    border-radius: 4px;
+}
+
+.awe{
+    margin: 10px;
+}
+
+#mar{
+    margin-left: 60px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background: rgb(31, 230, 41);
+    font-size: 20px;
+  }
+
+.big{
+    color: rgb(194, 242, 248);
+    margin-top: -15px;
+}
+
+.inner_banner{
+    /* align-items: cen; */
+    text-align: center;
+    height: 130px;
+    margin: auto;
+    width: 700px;
+    background-color: rgb(63, 74, 189);
+    border-radius: 4px;
+}
+
+.inner_banner img{
+    width: 100px;
+}
+
+.te{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+}
+#inn_b{
+    margin: 10px;
+    padding: 6px;
+    background-color: rgb(90, 226, 55);
+    border: solid rgb(90, 226, 55);
+    border-radius: 4px;
+    margin-left: 180px;
+}
+
+#imgur{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#other{
+    margin-left: 40px;
+}
+
+#toast{
+    width: 40px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
